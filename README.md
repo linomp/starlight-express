@@ -25,7 +25,7 @@ Every employer needs you to know this. Please watch:
 
 2. **[Learn Github in 20 minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)** :mortar_board:: github for collaborating on projects, another vital skill.
 
-After those videos you should know how to contribute to this guide. Now you can continue.
+After those videos you should have a github account, and should know how to contribute to this guide. Now you can continue.
 
 
 ## The Path
