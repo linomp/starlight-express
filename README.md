@@ -1,9 +1,9 @@
 # Web applications roadmap (for speed freaks)
 
 The rationale is that,
-- Internet courses will teach you to use frameworks and libraries just as they are - which can already get you a job (:moneybag:).
+- **Internet courses** will teach you to use frameworks and libraries just as they are - which can already get you a job (:moneybag:).
 
-- University will teach you the fundamental concepts and techniques behind all these "black boxes". Then you can troubleshoot, optimize, and do more advanced things to solve novel and more challenging problems - which makes you very valuable engineers that companies fight for (:moneybag::moneybag::moneybag:).
+- **University** will teach you the fundamental concepts and techniques behind all these "black boxes". Then you can troubleshoot, optimize, and do more advanced things to solve novel and more challenging problems - which makes you very valuable engineers that companies fight for (:moneybag::moneybag::moneybag:).
 
 The best strategy, is to **do both!**
 
@@ -15,7 +15,7 @@ The steps to hit the ground running are simply three:
 
 Good luck.
 
-_Note_: _:mortar_board: means learning objective_
+_Note: :mortar_board: means learning objective_
 
 ## Requirements for this guide
 
@@ -34,7 +34,7 @@ After those videos you should know how to contribute to this guide. Now you can 
 
 **0. [How the world wide web works (12 min.)](https://youtu.be/guvsH5OFizE)** :mortar_board:: elemental web application terms and context.
 
-  <img src="https://user-images.githubusercontent.com/40581019/133425830-55825ca3-c451-4411-9d9d-f15a3ebc1456.PNG" width="50%" />
+  <img src="https://user-images.githubusercontent.com/40581019/133425830-55825ca3-c451-4411-9d9d-f15a3ebc1456.PNG" width="35%" />
 
 **1. [Build Portfolio Website & deploy (2h)](https://youtu.be/r_hYR53r61M).** :mortar_board:: HTML, CSS, responsive layout, browser local storage (chosen theme persists after page refresh).
 
@@ -47,18 +47,28 @@ After those videos you should know how to contribute to this guide. Now you can 
 
 **2. [React.js Crash Course 2021 (1h48)](https://youtu.be/w7ejDZ8SWv8)** :mortar_board:: modern Javascript, **the React.js front-end library**.
 
-  <img src="https://user-images.githubusercontent.com/40581019/133434112-c3d3f884-e451-4647-bf69-d4ec80a608a4.PNG" width="40%" /> 
+  <img src="https://user-images.githubusercontent.com/40581019/133434112-c3d3f884-e451-4647-bf69-d4ec80a608a4.PNG" width="50%" /> 
 
 
 **3. [Create a discord bot with Node.js (1h17)](https://youtu.be/BmKXBVdEV0g)** :mortar_board:: library usage, **the Node.js back-end framework**.
 
-**4. [Node.js API Masterclass (12h)](https://www.udemy.com/course/nodejs-api-masterclass/)** :mortar_board:: database (MongoDB), backend development, more professional Node.js.
+  <img src="https://user-images.githubusercontent.com/40581019/133437169-67c7680a-92f9-4fe0-a96d-6c428666bbbb.PNG" width="40%" /> 
+
+
+**4. [Node.js API Masterclass (12h)](https://www.udemy.com/course/nodejs-api-masterclass/)** :mortar_board:: database (MongoDB), backend development (no UI), more professional aspects of Node.js.
+
+  <img src="https://user-images.githubusercontent.com/40581019/133437695-0ec954b1-6a6f-425d-ac4b-417e35d93593.PNG" width="50%" /> 
+
 
 **5. [Full-stack MERN project - part 1 (1h15)](https://youtu.be/ngc9gnGgUdA)[ | part 2 (1h20)](https://youtu.be/aibtHnbeuio)** :mortar_board:: **full-stack development**: bringing together front & back end; Node + React.
+  
+  <img src="https://user-images.githubusercontent.com/40581019/133438114-19326cb0-a8c1-4822-9aa3-6d83191e41ce.PNG" width="60%" /> 
 
 <!--
 _Comprehensive roadmap here : https://github.com/kamranahmedse/developer-roadmap_
 -->
+
+**6. Internship!**:technologist::woman_technologist: :dart::partying_face:
 
 ## Demos / Ideas (link here your progress and other cool stuff, this can spin off later into your own portfolios...)
 
