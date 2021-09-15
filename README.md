@@ -1,4 +1,4 @@
-# Starlight express: _super compact web applications roadmap for speed freaks_
+# Web applications roadmap (for speed freaks)
 
 The rationale is that,
 - Internet courses will teach you to use frameworks and libraries just as they are - which can already get you a job (:moneybag:).
@@ -7,7 +7,7 @@ The rationale is that,
 
 The best strategy, is to **do both!**
 
-Since you already have to deal with university workload, this guide is intended to be an extremely concise roadmap - no BS, straight to the point. 
+Since you already have to deal with university workload, this guide is intended to be an **extremely concise roadmap** - no BS, straight to the useful stuff. 
 
 The steps to hit the ground running are simply three:  
 
@@ -15,11 +15,24 @@ The steps to hit the ground running are simply three:
 
 Good luck.
 
+_Note_: _:mortar_board: means learning objective_
+
+## Requirements for this guide
+
+Every employer needs you to know this. Please watch: 
+
+1. **[Learn Git in 15 minutes](https://www.youtube.com/watch?v=USjZcfj8yxE)** :mortar_board:: git version control system, vital skill.
+
+2. **[Learn Github in 20 minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)** :mortar_board:: github for collaborating on projects, another vital skill.
+
+After those videos you should know how to contribute to this guide. Now you can continue.
+
+
 ## The Path
 
-_:mortar_board: means learning objective_
 
-**0. [How the world wide web works (12 min.)](https://youtu.be/guvsH5OFizE)** :mortar_board:: Elemental web application terms and context.
+
+**0. [How the world wide web works (12 min.)](https://youtu.be/guvsH5OFizE)** :mortar_board:: elemental web application terms and context.
 
   <img src="https://user-images.githubusercontent.com/40581019/133425830-55825ca3-c451-4411-9d9d-f15a3ebc1456.PNG" width="50%" />
 
@@ -32,20 +45,33 @@ _:mortar_board: means learning objective_
       <img src="https://user-images.githubusercontent.com/40581019/133420776-71a24bf3-4677-4b7c-aed2-6e6229cd8083.PNG" width="40%" /> 
 
 
-**2. [React JS Crash Course 2021 (1h48)](https://youtu.be/w7ejDZ8SWv8)** :mortar_board:: Modern Javascript ES6, the React JS front-end library.
+**2. [React.js Crash Course 2021 (1h48)](https://youtu.be/w7ejDZ8SWv8)** :mortar_board:: modern Javascript, **the React.js front-end library**.
+
+  <img src="https://user-images.githubusercontent.com/40581019/133434112-c3d3f884-e451-4647-bf69-d4ec80a608a4.PNG" width="40%" /> 
 
 
-**3. [Create a discord bot with Node JS (1h17)](https://youtu.be/BmKXBVdEV0g)** :mortar_board:: Javascript, library usage, the Node JS Backend framework.
+**3. [Create a discord bot with Node.js (1h17)](https://youtu.be/BmKXBVdEV0g)** :mortar_board:: library usage, **the Node.js back-end framework**.
 
-**4. [Create a discord bot with Node JS (1h17)](https://youtu.be/BmKXBVdEV0g)** :mortar_board:: Javascript, library usage, the Node JS Backend framework.
+**4. [Node.js API Masterclass (12h)](https://www.udemy.com/course/nodejs-api-masterclass/)** :mortar_board:: database (MongoDB), backend development, more professional Node.js.
 
+**5. [Full-stack MERN project - part 1 (1h15)](https://youtu.be/ngc9gnGgUdA)[ | part 2 (1h20)](https://youtu.be/aibtHnbeuio)** :mortar_board:: **full-stack development**: bringing together front & back end; Node + React.
 
+<!--
 _Comprehensive roadmap here : https://github.com/kamranahmedse/developer-roadmap_
+-->
 
 ## Demos / Ideas (link here your progress and other cool stuff, this can spin off later into your own portfolios...)
 
-### lino (RxB)
+### violeta _(s3w3rslvt X JxB)_
+- _your amazing portfolio goes here_
 
-### violeta (s3w3rslvt X JxB)
+### frank _(LxB)_
+- _your amazing portfolio goes here_
 
-### frank (LxB)
+### lino _(RxB)_
+
+- RGB game **(html, css, js)**. [live version](https://linomp.github.io/rgb-game/) | [code](https://github.com/linomp/rgb-game)
+- Website with video background **(html, css)**. [live version](https://linomp.github.io/test-static-deploy/) | [code](https://github.com/linomp/test-static-deploy)
+- Website using face-detection library **(html, css, js)**. [live version](https://linomp.github.io/floating-face-terror/) | [code](https://github.com/linomp/floating-face-terror)
+- Portfolio Mami XD (incomplete) **(html, css, js)**. [live version](https://linomp.github.io/ZPD_portfolio) | [code](https://github.com/linomp/ZPD_portfolio)
+- Crypto tracker **(.NET Core, React)** (it was an internship test task, i don't know shit bout crypto XD). [live version]() | [code](https://github.com/linomp/crypto_tracker)
