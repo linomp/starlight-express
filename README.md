@@ -70,6 +70,8 @@ _Comprehensive roadmap here : https://github.com/kamranahmedse/developer-roadmap
 
 **6. Internship!**:technologist::woman_technologist: :dart::partying_face:
 
+Everything you've built till this point is already your portfolio. Add them to your github, try to deploy live versions so you can show the functionality!
+
 ## Demos / Ideas (link here your progress and other cool stuff, this can spin off later into your own portfolios...)
 
 ### violeta _(s3w3rslvt X JxB)_
