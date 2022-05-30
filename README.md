@@ -72,19 +72,3 @@ _Comprehensive roadmap here : https://github.com/kamranahmedse/developer-roadmap
 
 Everything you've built till this point is already your portfolio. Add them to your github, try to deploy live versions so you can show the functionality!
 
-## Demos / Ideas (link here your progress and other cool stuff, this can spin off later into your own portfolios...)
-
-### violeta _(s3w3rslvt X JxB)_
-- _your amazing portfolio goes here_
-
-### frank _(LxB)_
-- _your amazing portfolio goes here_
-
-### lino _(RxB)_
-
-- RGB game **(html, css, js)**. [live version](https://linomp.github.io/rgb-game/) | [code](https://github.com/linomp/rgb-game)
-- Website with video background **(html, css)**. [live version](https://linomp.github.io/test-static-deploy/) | [code](https://github.com/linomp/test-static-deploy)
-- Website using face-detection library **(html, css, js)**. [live version](https://linomp.github.io/floating-face-terror/) | [code](https://github.com/linomp/floating-face-terror)
-- Portfolio Mami XD (incomplete) **(html, css, js)**. [live version](https://linomp.github.io/ZPD_portfolio) | [code](https://github.com/linomp/ZPD_portfolio)
-- Crypto tracker **(.NET Core, React)** (it was an internship test task, i don't know shit bout crypto XD). [live version]() | [code](https://github.com/linomp/crypto_tracker)
-- My own portfolio: actually I was very lazy and I just used github for it, [following this guide](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme). And it looks [like this](https://github.com/linomp).
