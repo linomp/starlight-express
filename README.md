@@ -1,74 +1,59 @@
-# Web applications roadmap (for speed freaks)
+# Developing APIs with Python
 
-The rationale is that,
-- **Internet courses** will teach you to use frameworks and libraries just as they are - which can already get you a job (:moneybag:).
+Stripped down path to teach you what are APIs, how to build one quick with FastAPI (that also follows modern best practices), and how to build an interesting project at the end.
 
-- **University** will teach you the fundamental concepts and techniques behind all these "black boxes". Then you can troubleshoot, optimize, and do more advanced things to solve novel and more challenging problems - which makes you very valuable engineers that companies fight for (:moneybag::moneybag::moneybag:).
+## Git & Github
 
-The best strategy, is to **do both!**
+To upload your project to github correctly you NEED to know this. Please watch  (in order): 
 
-Since you already have to deal with university workload, this guide is intended to be an **extremely concise roadmap** - no BS, straight to the useful stuff. 
+1. **[Learn Git in 15 minutes](https://www.youtube.com/watch?v=USjZcfj8yxE)** 
 
-The steps to hit the ground running are simply three:  
+2. **[Learn Github in 20 minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)**
 
-:globe_with_meridians: **HTML+CSS**  -> :electron: **Frontend framework**  -> :floppy_disk: **Backend framework + Database**
+Checklist after watching those videos:
 
-Good luck.
-
-_Note: :mortar_board: means learning objective_
-
-## Requirements for this guide
-
-Every employer needs you to know this. Please watch: 
-
-1. **[Learn Git in 15 minutes](https://www.youtube.com/watch?v=USjZcfj8yxE)** :mortar_board:: git version control system, vital skill.
-
-2. **[Learn Github in 20 minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)** :mortar_board:: github for collaborating on projects, another vital skill.
-
-After those videos you should have a github account, and should know how to contribute to this guide. Now you can continue.
+- [ ] have a github account
+- [ ] know how to create a repository on github
+- [ ] know how to push your git repo to github
+- [ ] know the benefit of working on branches separate from the main branch
+- [ ] know how to create & delete secondary branches in your git repo
+- [ ] know how to merge secondary branches into the main one
 
 
 ## The Path
 
-
-
-**0. [How the world wide web works (12 min.)](https://youtu.be/guvsH5OFizE)** :mortar_board:: elemental web application terms and context.
-
-  <img src="https://user-images.githubusercontent.com/40581019/133425830-55825ca3-c451-4411-9d9d-f15a3ebc1456.PNG" width="35%" />
-
-**1. [Build Portfolio Website & deploy (2h)](https://youtu.be/r_hYR53r61M).** :mortar_board:: HTML, CSS, responsive layout, browser local storage (chosen theme persists after page refresh).
-
-  <img src="https://user-images.githubusercontent.com/40581019/133420469-aa1fb07e-2ff7-4eed-8047-e3702c3dc316.PNG" width="70%" />
-
-   * Optional: [Build a Modern Landing Page Website (1h15)](https://youtu.be/X1dz0xRbSJc). :mortar_board:: even cooler CSS.
-
-      <img src="https://user-images.githubusercontent.com/40581019/133420776-71a24bf3-4677-4b7c-aed2-6e6229cd8083.PNG" width="40%" /> 
-
-
-**2. [React.js Crash Course 2021 (1h48)](https://youtu.be/w7ejDZ8SWv8)** :mortar_board:: modern Javascript, **the React.js front-end library**.
-
-  <img src="https://user-images.githubusercontent.com/40581019/133434112-c3d3f884-e451-4647-bf69-d4ec80a608a4.PNG" width="50%" /> 
-
-
-**3. [Create a discord bot with Node.js (1h17)](https://youtu.be/BmKXBVdEV0g)** :mortar_board:: library usage, **the Node.js back-end framework**.
-
-  <img src="https://user-images.githubusercontent.com/40581019/133437169-67c7680a-92f9-4fe0-a96d-6c428666bbbb.PNG" width="40%" /> 
-
-
-**4. [Node.js API Masterclass (12h)](https://www.udemy.com/course/nodejs-api-masterclass/)** :mortar_board:: database (MongoDB), backend development (no UI), more professional aspects of Node.js.
-
-  <img src="https://user-images.githubusercontent.com/40581019/133437695-0ec954b1-6a6f-425d-ac4b-417e35d93593.PNG" width="50%" /> 
-
-
-**5. [Full-stack MERN project - part 1 (1h15)](https://youtu.be/ngc9gnGgUdA)[ | part 2 (1h20)](https://youtu.be/aibtHnbeuio)** :mortar_board:: **full-stack development**: bringing together front & back end; Node + React.
+**1. [Tutorial about APIs & FastAPI framework (58 min.)](https://www.youtube.com/watch?v=-ykeT6kk4bk&t=731s)** - TechWithTim makes the best python videos.
   
-  <img src="https://user-images.githubusercontent.com/40581019/133438114-19326cb0-a8c1-4822-9aa3-6d83191e41ce.PNG" width="60%" /> 
+   <img src="https://user-images.githubusercontent.com/40581019/175874893-8332d135-3306-490c-b6bd-671876d33d13.png" width="45%" />
 
-<!--
-_Comprehensive roadmap here : https://github.com/kamranahmedse/developer-roadmap_
--->
+**2. [Build amazon price tracking app (19 min.)](https://www.youtube.com/watch?v=Bg9r_yLk7VY)**  - you don't build a web app, but contains all the steps for scraping AND sending you an email when the price is below a chosen threshold. 
+  
+   <img src="https://user-images.githubusercontent.com/40581019/175885423-704dfb3f-8d79-4704-bc1a-ccbb6cbcbcdb.PNG" width="45%" />
 
-**6. Internship!**:technologist::woman_technologist: :dart::partying_face:
+**3. Project Idea:** Use the knowledge from steps 1 & 2 to build an API with these endpoints:
+  - POST `/tracking`: here I can send the url of a new product that I want to track and a price "threshold" for sending me an alert.
+  - GET `/tracking`: returns me a list with the currently tracked product urls, along with product name, price threshold and best price so far.
+  - GET `/config`: show me the email to which the alerts will be sent
+    
+    Notes: 
+    - First focus only the API (the backend). Later you can investigate how to add an actual UI / web page (the frontend).
+    - also, the script created in step 2 runs only once. For monitoring the price automatically you will need to run it as a **Scheduled Task**, but it's easy. This [answered stack overflow question](https://stackoverflow.com/questions/70104983/how-to-use-apscheduler-correctly-in-fastapi) shows how to do that (within FastAPI).
 
-Everything you've built till this point is already your portfolio. Add them to your github, try to deploy live versions so you can show the functionality!
+## Further resources
 
+#### More about Web Scraping
+- [TechWithTim: Web scraping with BeautifulSoup](https://www.youtube.com/playlist?list=PLzMcBGfZo4-lSq2IDrA6vpZEV92AmQfJK). 4 videos, from 11 to 27 mins. each.
+
+  <img src="https://user-images.githubusercontent.com/40581019/175874933-a4f6a3d8-bfbb-4a15-ad80-394c039f57fb.PNG" width="35%" />
+  
+- Web scraping Memes from Reddit with FastAPI: [part 1 (48 min)](https://www.youtube.com/watch?v=di13K2xTedo&list=PLhH3UpV2flryU3DDc47zAbiyDdbIFnnNB&index=4) | [part 2 (30 min)](https://www.youtube.com/watch?v=0cVybZ_loWw&list=PLhH3UpV2flryU3DDc47zAbiyDdbIFnnNB&index=5). 
+
+  <img src="https://user-images.githubusercontent.com/40581019/175878832-ea9dab71-e0d8-4b08-b6d4-0d1c68b8ac66.PNG" width="35%"/>
+
+
+#### More about Web Applications
+- [Fullstack development tutorial (1h)](https://www.youtube.com/watch?v=OzUzrs8uJl8). Learn to connect FastAPI (backend), ReactJS (frontend) and MongoDB (database) by building a To-Do list app.
+  
+- [Learn HTML & CSS building a portfolio website (2h)](https://youtu.be/r_hYR53r61M). Responsive layout, browser local storage (chosen theme persists after page refresh).
+ 
+  <img src="https://user-images.githubusercontent.com/40581019/133420469-aa1fb07e-2ff7-4eed-8047-e3702c3dc316.PNG" width="35%" />
