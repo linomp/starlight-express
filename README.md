@@ -1,24 +1,10 @@
 # Developing APIs with Python
 
-Stripped down path to teach you what are APIs, how to build one quick with FastAPI (that also follows modern best practices), and how to build an interesting project at the end.
+Stripped down path to teach you what are APIs, how to build one quick with FastAPI (that also follows modern best practices), and makes you build a project on your own at the end.
 
 ## Git & Github
 
-To upload your project to github correctly you NEED to know this. Please watch  (in order): 
-
-1. **[Learn Git in 15 minutes](https://www.youtube.com/watch?v=USjZcfj8yxE)** 
-
-2. **[Learn Github in 20 minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)**
-
-Checklist after watching those videos:
-
-- [ ] have a github account
-- [ ] know how to create a repository on github
-- [ ] know how to push your git repo to github
-- [ ] know the benefit of working on branches separate from the main branch
-- [ ] know how to create & delete secondary branches in your git repo
-- [ ] know how to merge secondary branches into the main one
-
+Check this [easy step-by-step lesson by Microsoft](https://github.com/microsoft/Web-Dev-For-Beginners/blob/main/1-getting-started-lessons/2-github-basics/README.md) and complete their checklist.
 
 ## The Path
 
